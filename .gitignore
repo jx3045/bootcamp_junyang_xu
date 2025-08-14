@@ -1,9 +1,9 @@
-# Ignore local class materials
-class_materials/
+# Ignore local data files
+data/
 
-# Ignore Python cache files
+# Ignore Python cache
 __pycache__/
 *.pyc
 
-# Ignore environment files / secrets
+# Ignore environment files
 .env
