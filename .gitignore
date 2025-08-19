@@ -1,13 +1,16 @@
-# Ignore local data files
-data/
 
-# Ignore Python cache
+# env & secrets
+.env
+
+# notebooks 
+.ipynb_checkpoints/
+
+# python 
 __pycache__/
 *.pyc
 
-# Ignore environment files
-.env
+#data 
+data/*
+!data/raw/
+!data/raw/*.csv
 
-data/raw/
-
-.ipynb_checkpoints/

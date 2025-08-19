@@ -116,6 +116,8 @@ The goal of this project is to analyze financial market data to understand and m
 
 - Optional: `src/utils.py`  
 
+  
+
 ---
 
 ## Stage 04: Data Acquisition & Ingestion
@@ -127,7 +129,7 @@ The goal of this project is to analyze financial market data to understand and m
 - Notebook: `notebooks/stage04_data-acquisition-and-ingestion_homework-starter.ipynb`
 - Archived: `homework/homework4/`
 
-## Stage 05: Data Storage)
+## Data Storage (Stage 05)
 
 We organize data into two folders:
 
@@ -156,23 +158,14 @@ DATA_DIR_PROCESSED=data/processed
   
   - `price` column is numeric
   
-##Stage 06:  Cleaning Strategy 
+    
 
- For preprocessing, we applied the following steps:
- 
- 1. **Missing Values**
-     - Filled numeric missing values with column median (`fill_missing_median`).
-     - Dropped columns with more than 50% missing data (`drop_missing`).
- 2. **Normalization**
-     - Scaled selected numeric columns (e.g., `price`) to [0,1] range (`normalize_data`).
-     - Improves comparability between features.
-  
- 3. **Reproducibility**
-     - All functions are modularized in `src/cleaning.py`.
-     - Notebook demonstrates transformations step by step.
-     - Cleaned dataset saved to `data/processed/`.
-  
- This ensures datasets are consistent, reproducible, and ready for further analysis.
+- **/data/** → Raw and processed datasets  
+- **/src/** → Python modules (config, utils)  
+- **/notebooks/** → Jupyter notebooks for each stage  
+- **/docs/** → Stakeholder memos, framing slides, project artifacts  
+- **/homework/** → All homework contributions, organized by stage (`homework2/`, `homework3/`)  
+- **/class_materials/** → Local storage for class materials (never pushed)  
 
 
 
