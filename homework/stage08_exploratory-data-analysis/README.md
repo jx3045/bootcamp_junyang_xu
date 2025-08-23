@@ -212,51 +212,22 @@ This assignment explores different methods for detecting and handling outliers, 
 
 - All random elements use a fixed seed (`np.random.seed(42)`) for reproducibility.
 
-## Stage08 — Exploratory Data Analysis (EDA)
+  ## Stage08 — Exploratory Data Analysis (EDA)
 
-**Objectives:**
-- Generate and save a synthetic dataset (stored in `data/raw/sample_data.csv`).
-- Load the dataset and perform Exploratory Data Analysis (EDA).
+  **Objectives:**
+  - Generate and save a synthetic dataset (stored in `data/raw/sample_data.csv`).
+  - Load the dataset and perform Exploratory Data Analysis (EDA).
 
-**Contents:**
-1. Data generation and saving (with injected missing values and outliers).
-2. Numerical summary statistics (mean, std, skewness, kurtosis).
-3. Distribution analysis (histograms, KDE plots, boxplots).
-4. Relationship analysis (scatter plots: income vs spend, age vs spend).
-5. Correlation heatmap.
-6. Insights, assumptions, and next-step recommendations.
+  **Contents:**
+  1. Data generation and saving (with injected missing values and outliers).
+  2. Numerical summary statistics (mean, std, skewness, kurtosis).
+  3. Distribution analysis (histograms, KDE plots, boxplots).
+  4. Relationship analysis (scatter plots: income vs spend, age vs spend).
+  5. Correlation heatmap.
+  6. Insights, assumptions, and next-step recommendations.
 
-**How to Run:**
-- Open `notebooks/stage08_eda.ipynb`.
-  
-- Run all cells sequentially.
-  
-- A synthetic dataset `sample_data.csv` will be created under `data/raw/`.
-  
-- Plots and insights will be displayed directly within the notebook.
-  
-## Stage09 — Feature Engineering
-  
-**Goal:**  
- - Build new features based on insights from EDA (Stage08).  
- - Save feature-enhanced dataset for future modeling.
-  
-**Contents:**  
-  1. Load dataset from `data/processed/stage08_clean.csv`.  
-  2. Implement at least 4 engineered features:  
-    - **spend_income_ratio**: Normalizes spend by income.  
-    - **rolling_spend_mean**: Captures 3-day spending trend.  
-    - **age_group**: Bins age into categorical groups.  
-       - **region_spend_share**: Compares individual spend relative to region’s total spend.  
-       - **rolling_income_var**: Local variance of income as proxy for variability.  
-  3. Document rationale for each feature (why it matters, based on EDA).  
-  4. Save processed dataset to `data/processed/stage09_features.csv`.
-  
- **How to Run:**  
-  - Open `notebooks/stage09_feature_engineering.ipynb`.  
-  - Run all cells.  
-  - New dataset will be saved in `data/processed/stage09_features.csv`.
-  
- **Deliverables:**  
-  - Notebook file: `notebooks/stage09_feature_engineering.ipynb`  
-  - Processed data: `data/processed/stage09_features.csv`  
+  **How to Run:**
+  - Open `notebooks/stage08_eda.ipynb`.
+  - Run all cells sequentially.
+  - A synthetic dataset `sample_data.csv` will be created under `data/raw/`.
+  - Plots and insights will be displayed directly within the notebook.
