@@ -7,3 +7,10 @@ python-dotenv==1.0.1
 beautifulsoup4==4.12.3
 pyarrow
 
+
+seaborn
+scikit-learn
+scipy
+statsmodels
+jupyter
+openpyxl
