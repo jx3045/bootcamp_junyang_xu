@@ -261,12 +261,6 @@ This assignment explores different methods for detecting and handling outliers, 
   - Notebook file: `notebooks/stage09_feature_engineering.ipynb`  
   - Processed data: `data/processed/stage09_features.csv`  
 
-# Project Deliverables — Stages 10a to 12
-
-This README summarizes the deliverables, audience, purpose, and reproduction instructions for Stages 10a, 10b, 11, and 12.
-
----
-
 ## Stage 10a — Linear Regression Diagnostics
 
 **Audience:** Analytics team & peer reviewers  
